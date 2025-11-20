@@ -1,0 +1,55 @@
+{
+  "fileId": "GQpuM432S0CLzEhrvob1kT",
+  "fileName": "DNSEye-Library (Copy)",
+  "pages": {
+    "Intro": {
+      "components": ["Logo", "Thumbnail"]
+    },
+    "Form": {
+      "components": ["Input", "Select", "Checkbox", "Radio", "Toggle", "TextArea"]
+    },
+    "Table": {
+      "components": ["Table", "TableHeader", "TableRow", "TableCell"]
+    },
+    "Filters": {
+      "components": ["FilterButton", "FilterDropdown", "FilterChip"]
+    },
+    "Helpers": {
+      "components": ["Alert", "Badge", "Tooltip", "Popover"]
+    },
+    "Navigation": {
+      "components": ["Navbar", "Sidebar", "Breadcrumb", "Tabs"]
+    },
+    "Others": {
+      "components": ["Button", "Link", "Card", "Modal"]
+    }
+  },
+  "tokens": {
+    "typography": [
+      "Header-1",
+      "Header-2",
+      "Header-3",
+      "Header-4",
+      "Button",
+      "Body-18",
+      "Body-14",
+      "Body-12",
+      "Caption",
+      "Button-14-Regular",
+      "Button-12-All Caps",
+      "Body-13",
+      "Body-10",
+      "Button-11"
+    ],
+    "colors": [
+      "Background",
+      "Badge",
+      "Color",
+      "Category",
+      "Line"
+    ]
+  },
+  "outputPath": "src/tokens",
+  "componentPath": "src/components",
+  "apiEndpoint": "https://api.figma.com/v1"
+}
