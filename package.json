@@ -1,0 +1,45 @@
+{
+  "name": "@dnssense/design-library",
+  "version": "1.0.0",
+  "description": "DNS Sense Design System - Figma + React component library",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "module": "lib/esm/index.js",
+  "license": "MIT",
+  "author": "DNS Sense Team",
+  "scripts": {
+    "build": "tsc && npm run build:esm",
+    "build:esm": "tsc --module es2015 --outDir lib/esm",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^7.0.0",
+    "@storybook/addon-essentials": "^7.0.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@testing-library/react": "^14.0.0"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "component-library",
+    "figma",
+    "dns-sense"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnssense/dns-sense-design-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dnssense/dns-sense-design-library/issues"
+  },
+  "homepage": "https://github.com/dnssense/dns-sense-design-library#readme"
+}
